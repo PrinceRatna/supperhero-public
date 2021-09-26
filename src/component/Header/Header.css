@@ -1,0 +1,12 @@
+
+.header-div{
+    margin:auto;
+    background-color:#4868b3 ;
+    color:#fff;
+    width:100%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,21 @@
+.single-card{
+    background-color:white;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+}
+.img-div{
+    text-align: center;
+}
+.btn-regular{
+    padding: 5px;
+    width:110px;
+    background-color: honeydew;
+    background-color: #0f20a3;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-size:15px;
+    font-weight:600;
+}
+
