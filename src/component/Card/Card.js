@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Cart } from '../Cart/Cart';
 import SingleCard from '../SingleCard/SingleCard';
 import './Card.css'
+// --------use of useState ,useEffect and passing key--------- 
 const Card = () => {
     const [doctorDetails,setDoctorDetails]=useState([]);
     useEffect(()=>{

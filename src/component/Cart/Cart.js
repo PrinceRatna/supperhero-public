@@ -7,7 +7,9 @@ const Cart = (props) => {
       let doctorName="";
       
       for(const cartData of cart){
+        // --------total salary--------- 
           totalSalary=totalSalary+cartData.salary;
+          //------------ showed cart name ---------
          doctorName=doctorName+'   '+cartData.name+'. ';   
       }
     return (
