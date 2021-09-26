@@ -1,16 +1,14 @@
 import React from 'react';
 import './Cart.css'
-
 const Cart = (props) => {
       const {cart}=props;
-      console.log(cart);
-
+    //   console.log(cart);
       let totalSalary=0;
-      let y="";
+      let doctorName="";
       
       for(const cartData of cart){
           totalSalary=totalSalary+cartData.salary;
-         y=y+'   '+cartData.name+'. ';   
+         doctorName=doctorName+'   '+cartData.name+'. ';   
       }
     return (
              <div className='cart'>
@@ -26,7 +24,7 @@ const Cart = (props) => {
                      }
                  </h4>   
                  <h5>
-                     {y}
+                     {doctorName}
                  </h5>
              </div>  
     );

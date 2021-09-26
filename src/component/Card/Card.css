@@ -7,5 +7,26 @@
 .single-card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 4px;
+    grid-gap:10px;
+}
+@media only  screen and (max-width:468px){
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .single-card-container{
+        display: grid;
+        grid-template-columns:1fr ;
+        margin-bottom: 10px;
+
+    }
+}
+@media only screen and (max-width:768px){
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .single-card-container{
+        padding-bottom: 20px;
+    }
 }

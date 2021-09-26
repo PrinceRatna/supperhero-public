@@ -1,4 +1,3 @@
-// import { findIconDefinition } from '@fortawesome/fontawesome-svg-core';
 import React, { useEffect, useState } from 'react';
 import { Cart } from '../Cart/Cart';
 import SingleCard from '../SingleCard/SingleCard';
@@ -26,9 +25,8 @@ const Card = () => {
                      doctorDetails.map((details)=><SingleCard key={details.id} handleEventClick={handleEventClick}  details={details}></SingleCard>)
                  }  
             </div>
-          
+           
               <Cart addCount={count} cart={cart} ></Cart>
-            
         </div>
     );
 };
